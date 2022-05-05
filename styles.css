@@ -1,0 +1,302 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: rgb(46, 46, 46);
+}
+
+.bannerTopTop{
+    width: 741px;
+    height: 15px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.banner1{
+     width: 741px;
+     height: 120px;
+     background-color: #ff5757;
+     text-align: center;
+     margin: 0 auto;
+}
+    
+.banner2{
+      width: 741px;
+      margin: 0 auto;
+      height: 780px;
+ }
+
+ .titleBanner1{
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+    
+.subtitleBanner1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+    
+.banners{
+    display: flex;
+    flex-direction: row;
+}
+    
+.leftBanner{
+    width: 210px;
+    height: 780px;
+    background-color: rgb(255, 255, 255);
+}
+    
+.rigthBanner{
+    width: 530.739px;
+    height: 780px;
+    background-color: #efefef;
+}
+    
+.titleLeftBanner{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight:600;
+    margin-left: 2.6rem;
+    color: #7c8587;
+}
+    
+.line{
+    width: 60px;
+    height: 5px;
+    margin-left: 2.6rem;
+    margin-top: -11px;
+    background-color: #7c8587;
+}
+    
+.textLeftBanner{
+    margin-left: 2.6rem;
+    color: #484848;
+    font-size: 10px;
+}
+    
+.textLeftBanner2{
+    color: #0072ff;
+}
+    
+.titleRigthBanner{
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+    
+.textUpperCase{
+    text-transform: uppercase;
+}
+    
+.yearTitle{
+    margin-left: 3rem;
+}
+    
+.textLanguages{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+    
+.icon{
+    color: #0072ff;
+}
+
+    /* media queries */
+
+@media (max-width: 566px){
+    .bannerTopTop{
+        width: 99.9%;
+        height: 15px;
+        background-color: white;
+        margin: 0 auto;
+    }
+
+    .banner1{
+        width: 99.9%;
+        height: 100px;
+        background-color: #ff5757;
+        text-align: center;
+        margin: 0 auto;
+   }
+
+   .banners{
+        display: flex;
+        flex-direction: column;
+}
+       
+   .banner2{
+        width: 99.9%;
+        margin: 0 auto;
+        height: 780px;         
+    }
+   
+    .titleBanner1{
+       justify-content: center;
+       align-items: center;
+       margin-top: 0px;
+       color: white;
+       text-transform: uppercase;
+       font-weight: bold;
+       letter-spacing: 2px;
+       font-size: 14px;
+   }
+       
+   .subtitleBanner1{
+       color: white;
+       text-transform: uppercase;
+       font-weight: bold;
+       letter-spacing: 2px;
+       font-size: 10px;
+   }
+
+       
+   .leftBanner{
+        width: 99.9%;
+        height: 360px;
+        background-color: rgb(255, 255, 255);
+   }
+       
+   .rigthBanner{
+        width: 99.9%;       
+        height: 780px;
+        background-color: #efefef;
+   }
+       
+   .titleLeftBanner{
+       letter-spacing: 4px;
+       text-transform: uppercase;
+       font-size: 14px;
+       font-weight:600;
+       margin-left: 2.6rem;
+       color: #7c8587;
+   }
+       
+   .line{
+       width: 60px;
+       height: 5px;
+       margin-left: 2.6rem;
+       margin-top: -11px;
+       background-color: #7c8587;
+   }
+       
+   .textLeftBanner{
+       margin-left: 2.6rem;
+       color: #484848;
+       font-size: 10px;
+       padding-right: 25px;
+   }
+
+   .yearTitle{
+       margin-left: 3rem;
+   }
+}
+
+@media(min-width: 567px) and (max-width: 764px){
+    .banner1{
+        width: 541px;
+       height: 100px;
+        background-color: #ff5757;
+        text-align: center;
+        margin: 0 auto;
+   }
+       
+   .banner2{
+         width: 541px;
+         margin: 0 auto;
+         height: 780px;
+    }
+   
+    .titleBanner1{
+       justify-content: center;
+       align-items: center;
+       margin-top: 0px;
+       color: white;
+       text-transform: uppercase;
+       font-weight: bold;
+       letter-spacing: 2px;
+       font-size: 18px;
+   }
+       
+   .subtitleBanner1{
+       color: white;
+       text-transform: uppercase;
+       font-weight: bold;
+       letter-spacing: 2px;
+       font-size: 12px;
+   }
+       
+   .banners{
+       display: flex;
+       flex-direction: row;
+   }
+       
+   .leftBanner{
+       width: 210px;
+       height: 640px;
+       background-color: rgb(255, 255, 255);
+   }
+       
+   .rigthBanner{
+       width: 530.739px;
+       height: 640px;
+       background-color: #efefef;
+   }
+       
+   .titleLeftBanner{
+       letter-spacing: 4px;
+       text-transform: uppercase;
+       font-size: 16px;
+       font-weight:600;
+       margin-left: 2.6rem;
+       color: #7c8587;
+   }
+       
+   .line{
+       width: 60px;
+       height: 5px;
+       margin-left: 2.6rem;
+       margin-top: -11px;
+       background-color: #7c8587;
+   }
+       
+   .textLeftBanner{
+       margin-left: 2.6rem;
+       color: #484848;
+       font-size: 8px;
+   }
+       
+   .textLeftBanner2{
+       color: #0072ff;
+   }
+       
+   .titleRigthBanner{
+       font-weight: 1000;
+       text-transform: uppercase;
+   }
+       
+   .textUpperCase{
+       text-transform: uppercase;
+   }
+       
+   .yearTitle{
+       margin-left: 3rem;
+   }
+       
+   .textLanguages{
+       font-weight: 800;
+       text-transform: uppercase;
+   }
+       
+   .icon{
+       color: rgb(38, 38, 38);
+   }
+}
